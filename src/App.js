@@ -1,10 +1,14 @@
+import React from "react";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <h1>Test</h1>
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+    </>
   );
-}
+};
 
 export default App;
